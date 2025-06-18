@@ -1,0 +1,46 @@
+INTRODUCTION OF PYTHON:
+1.Python is a high-level, interpreted programming language that is widely used for various purposes such as web development,
+scientific computing, data analysis, artificial intelligence, and more. 
+2.It was created in the late 1980s by Guido van Rossum and was first released in 1991.
+3.Python is known for its simplicity, readability, and ease of use, making it an ideal language for beginners and experienced programmers alike.
+4.Python's syntax is designed to be easy to read and write, with a focus on codability and maintainability.
+
+
+USECASES:
+1. Web Development: Python is used in web development frameworks such as Django and Flask to build scalable and maintainable web applications.
+2. Data Analysis: Python is widely used in data analysis and science for tasks such as data cleaning , visualization, and machine learning.
+3. Artificial Intelligence: Python is used in AI and machine learning for tasks such as natural language processing , computer vision, and predictive modeling.
+4. Automation: Python is used for automating tasks such as data entry, file management, and system administration.
+5. Gaming: Python is used in game development for tasks such as game logic, AI, and graphics rendering.
+
+VERSION:
+current version of Python 3.9.5
+
+TYPES OF HIGH LEVEL LANGUAGES:
+1.General purpose languages: Python, Java, C++, etc.
+2.Special purpose languages: SQL, HTML, CSS, etc.
+3.Scripting languages: Python, Ruby, PHP, Javascript etc.
+
+TYPES OF LOW LEVEL LANGUAGES:
+1.Cobol
+2.Pascal
+3.Binary 
+4.Assembly
+
+CENTRICS IN PYTHON:
+1.Module centric 
+2.Data centric
+3.Object centric
+4.Function centric
+
+PARADIGM:[Paradigm means breaking large program into small parts for better readability and solving.]
+#Paradigm means a set of rules and principles that guide the design and implementation of a programming language.
+#Python is an object-oriented language, which means it supports the concept of objects and classes.
+#It also supports procedural programming, which means it supports the concept of procedures and functions.
+
+
+
+
+
+
+
