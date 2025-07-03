@@ -11,6 +11,75 @@ The basic syntax of regex includes:
 9. Lookahead and lookbehind assertions: Allow you to match a pattern only if it is followed or preceded by another pattern, such as (?=abc) (lookahead for "abc") or (?<=abc) (lookbehind for "abc").
 10. Non-capturing groups: Use (?:...) to group patterns without capturing them for backreferences.
 # Regular expressions are used in various applications, such as data validation, text processing, and web scraping.
+
+Quantifiers:
+*   `*` matches zero or more occurrences of the preceding element.
+*   `+` matches one or more occurrences of the preceding element.
+*   `?` matches zero or one occurrence of the preceding element.
+*   `{n}` matches exactly n occurrences of the preceding element.
+*   `{n,}` matches at least n occurrences of the preceding element.
+*   `{n,m}` matches between n and m occurrences of the preceding element.
+
+
+Regex methods : 
+1. `re.search()`: Searches for the first occurrence of the pattern in the string.
+2. `re.match()`: Searches for the pattern at the beginning of the string.                         *
+3. `re.fullmatch()`: Searches for the pattern that matches the entire string.                     *
+4. `re.findall()`: Finds all occurrences of the pattern in the string and returns them as a list. *
+5. `re.finditer()`: Finds all occurrences of the pattern in the string and returns them as an iterator.
+6. `re.split()`: Splits the string into substrings based on the pattern.                          *
+7. `re.sub()`: Replaces occurrences of the pattern in the string with a replacement string .
+8. `re.subn()`: Replaces occurrences of the pattern in the string with a replacement string and returns the number of replacements made.
+
+
+Special Characters:
+*   `.` matches any single character.
+*   `^` matches the start of the string.
+*   `$` matches the end of the string.
+*   `|` is a logical OR operator.
+*   `[]` defines a character class.
+*   `()` defines a group.
+*   `*` is a quantifier that matches zero or more occurrences of the preceding element.
+*   `+` is a quantifier that matches one or more occurrences of the preceding element.
+*   `?` is a quantifier that matches zero or one occurrence of the preceding element.
+*   `{n}` is a quantifier that matches exactly n occurrences of the preceding element.
+*   `{n,}` is a quantifier that matches at least n occurrences of the preceding element.
+*   `{n,m}` is a quantifier that matches between n and m occurrences of the preceding element.
+
+Example:
+print( re.search(r'\d+', 'abc123def456').group() ) # Output: 123
+print( re.search(r'\d+', 'abc123def456').group(0) ) # Output: 123
+
+
+
+Sequence:
+1. \d matches any digit.
+2. \D matches any non-digit.
+3. \s matches any whitespace character.
+4. \S matches any non-whitespace character.
+5. \w matches any alphanumeric character.
+6. \W matches any non-alphanumeric character.
+7. \b matches a word boundary.
+8. \B matches a non-word boundary.
+9. \A matches the start of the string.
+10. \Z matches the end of the string.
+11. \G matches the position where the previous match ended.
+12. \m matches the start of the string.
+13. \M matches the start of the string.
+14. \n matches the newline character.
+15. \r matches the carriage return character.
+16. \t matches the tab character.
+17. \v matches the vertical tab character.
+18. \0 matches the null character.
+19. \x matches a hexadecimal escape sequence.
+20. \u matches a Unicode escape sequence.
+21. \U matches a Unicode escape sequence.
+22. \N{...} matches a Unicode character by name.
+
+Example:
+print( re.findall(r'\d+', 'abc123def456') )  # Output: ['123', '456']
+print( re.findall(r'\d+', 'abc123def456', re.IGNORECASE) ) # Output: ['123', '456']
+print( re.findall(r'\d+', 'abc123def456', re.MULTILINE) ) # Output: ['123', '456']
 '''
 import re
 # Example of using regex to find all email addresses in a string
