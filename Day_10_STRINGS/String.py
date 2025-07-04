@@ -70,11 +70,11 @@ print(s2.casefold())
 # 4.Capitalize : Gives first letter capital. Rest all small.
 print(s2.capitalize())
 
-# 5.ljust() : adds spaces to the left of the string.
+# 5.ljust() : adds spaces to the right of the string.
 s3="Hello world"
 print(s3.ljust(30,'#'))
 
-# 6.rjust() : adds spaces to the right of the string.
+# 6.rjust() : adds spaces to the left of the string.
 print(s3.rjust(30,'$'))
 
 # 7.find() : searches the index value of given element in first occurence.
