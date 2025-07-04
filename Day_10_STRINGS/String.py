@@ -15,7 +15,7 @@ str3 = 'Hello, World!',1,54,True,9+3j,"Ganesh"
 print(str3)
 
 
-# Accessing string
+# Accessing string elements 
 print(str2[0])
 print(str2[1])
 print(str2[2]) 
@@ -43,7 +43,7 @@ print(str4 + str5)
 # Repetition of string
 print(str4*3)
 
-# string traversing
+# string traversing 
 for i in str4:
     print(i)
 
@@ -67,14 +67,14 @@ print(s2.lower())
 # 3.Casefold() : converts capital letters into small letters.
 print(s2.casefold())
 
-# 4.Capitalize : Gives first letter capital.
+# 4.Capitalize : Gives first letter capital. Rest all small.
 print(s2.capitalize())
 
-# 5.ljust()
+# 5.ljust() : adds spaces to the right of the string.
 s3="Hello world"
 print(s3.ljust(30,'#'))
 
-# 6.rjust()
+# 6.rjust() : adds spaces to the left of the string.
 print(s3.rjust(30,'$'))
 
 # 7.find() : searches the index value of given element in first occurence.
@@ -83,10 +83,10 @@ print(s3.find('o'))
 # 8.rfind() : searches the index value of given element from last  occurence.(i.e from right to left).
 print(s3.rfind('o'))
 
-# 9.center()
+# 9.center() : adds spaces to both sides of the string.
 print(s3.center(40,'0'))
 
-# 10.Index()
+# 10.Index() : returns the index value of the first occurrence of the specified value.  
 print(s3.index('o'))
 
 # 11.count() : it gives count of an element,like how many times it is repeated.
@@ -100,34 +100,34 @@ s4="   Welcome to python   "
 print(len(s4))
 print(len(s4.strip()))
 
-# 14.lstrip()
+# 14.lstrip() : it removes white spaces from left side of a string.
 print(len(s4.lstrip()))
 print(len(s4))
 
-# 15.rstrip
+# 15.rstrip () : it removes white spaces from right side of a string.
 print(len(s4.rstrip()))
 print(s4)
 
-# 16.replace()
+# 16.replace() : it replaces the given element with another element.
 s5= 'a,b,c,d'
 print(s5.replace(',','-'))
 
-# 17.join()
+# 17.join() : it is used to join two strings.
 s6="Ganesh"
 s7="I am from Tenali, Guntur."
 out=(s6.join(s7))
 print(out)
 
-# 18.startswith()
+# 18.startswith() : it checks whether the string starts with the given element or not.
 print(s4.startswith('W'))
 
-# 19.endswith()
+# 19.endswith() : it checks whether the string ends with the given element or not.
 print(s4.endswith(' '))
 
-# 20.isalpha()
+# 20.isalpha() : it checks whether the string contains only alphabets or not.
 print(s6.isalpha())
 
-# 21.isdigit():it works for only string.
+# 21.isdigit():it works for only string. it checks whether the string contains only digits or not.
 s8='100'
 print(s8.isdigit())
 
@@ -135,10 +135,10 @@ print(s8.isdigit())
 s9='Ganesh4224'
 print(s9.isalnum())
 
-# 23.removeprefix()
+# 23.removeprefix() : it removes the prefix from the string.
 print(s7.removeprefix('I'))
 
-# 24.removesuffix()
+# 24.removesuffix() : it removes the suffix from the string.
 print(s7.removesuffix('Tenali'))
 
 # 25.partition(): divides the string into 3 parts,gives in tuple format.
