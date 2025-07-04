@@ -81,6 +81,7 @@ print(24 not in y)
 not 
 and 
 or
+=,+=,-=,*=,/=,%=,//=,**=,&=,|=,^=,<<=,>>=
 '''
 # Examples on precedence
 # 1.
