@@ -70,11 +70,11 @@ print(s2.casefold())
 # 4.Capitalize : Gives first letter capital. Rest all small.
 print(s2.capitalize())
 
-# 5.ljust() : adds spaces to the right of the string.
+# 5.ljust() : adds spaces to the left of the string.
 s3="Hello world"
 print(s3.ljust(30,'#'))
 
-# 6.rjust() : adds spaces to the left of the string.
+# 6.rjust() : adds spaces to the right of the string.
 print(s3.rjust(30,'$'))
 
 # 7.find() : searches the index value of given element in first occurence.
@@ -160,7 +160,7 @@ s12=(1,2,3,4,5)
 print(isinstance(s12,tuple))
 
 # 30.split(): returns the string in list.
-print(s10.split(''))
+print(s10.split())
 
 # identity operators: even though 2 strings has same content their ids are different, returns true if 2 strings content is same otherwise false.
 S1="Ganesh"
@@ -170,3 +170,25 @@ print(id(s2))
 print( S1 is not S2)
 
 
+# Literals in Python : Literal is a value that is assigned to a variable. It can be a number, a string, a list, a tuple, a dictionary, a set, a boolean value, or a None value. 
+# 1. Integer Literals: These are whole numbers, either positive, negative or zero.
+# 2. Float Literals: These are decimal numbers.
+# 3. Complex Literals: These are numbers with real and imaginary parts.
+# 4. String Literals: These are sequences of characters enclosed in quotes.
+# 5. Boolean Literals: These are true or false values.
+# 6. None Literals: These are the absence of any object value.
+# 7. List Literals: These are ordered collections of values enclosed in square brackets.
+# 8. Tuple Literals: These are ordered, immutable collections of values enclosed in parentheses.
+# 9. Dictionary Literals: These are unordered collections of key-value pairs enclosed in curly brackets
+# 10. Set Literals: These are unordered collections of unique values enclosed in curly brackets.
+# 11. Binary Literals: These are numbers in binary format.
+# 12. Octal Literals: These are numbers in octal format.
+# 13. Hexadecimal Literals: These are numbers in hexadecimal format.
+# 14. Byte Literals: These are sequences of bytes enclosed in b prefix.
+# 15. Raw String Literals: These are strings that do not interpret escape sequences.
+# 16. F-String Literals: These are strings that can include expressions inside them.
+# 17. String Formatting Literals: These are strings that can include placeholders for values.
+# 18. Unicode Literals: These are strings that can include Unicode characters.
+# 19. Complex Literals: These are numbers with real and imaginary parts.
+# 20. Ellipsis Literals: These are a special type of literal that represents an ellipsis .
+# 21. True and False Literals: These are boolean values that represent true and false.
